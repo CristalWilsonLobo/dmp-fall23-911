@@ -1,0 +1,143 @@
+File,Variable,Variable Name,Variable Description,Visualized for EDA ,Comments,Variable Grouping
+Pub_PCRevents_CA,eArrest_01,Cardiac Arrest,Indication of the presence of a cardiac arrest at any time during this EMS event.,Boxplot,Data only includes incidents with a cardiac arrest,Cardiac Arrest
+CA_eID,eArrest_01,Cardiac Arrest,Indication of the presence of a cardiac arrest at any time during this EMS event.,,How is this different from the same variable in the other file?,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_02,Cardiac Arrest Etiology,"Indication of the etiology or cause of the cardiac arrest (classified as cardiac, non-cardiac, etc.).",Boxplot,,Cardiac Arrest
+FACTPCRARRESTRESUSCITATION_CA,eArrest_03,Resuscitation Attempted By EMS,"Indication of an attempt to resuscitate the patient who is in cardiac arrest (attempted, not attempted due to DNR, etc.).",Boxplot,,Cardiac Arrest
+FACTPCRARRESTWITNESS_CA,eArrest_04,Arrest Witnessed By,Indication of who the cardiac arrest was witnessed by.,,,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_07,AED Use Prior to EMS Arrival,Documentation of AED use Prior to EMS Arrival.,,,Cardiac Arrest
+FACTPCRARRESTCPRPROVIDED_CA,eArrest_09,Type of CPR Provided,Documentation of the type/technique of CPR used by EMS.,,,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_11,First Monitored Arrest Rhythm of the Patient,Documentation of what the first monitored arrest rhythm which was noted.,,,Cardiac Arrest
+FACTPCRARRESTROSC_CA,eArrest_12,Any Return of Spontaneous Circulation,Indication whether or not there was any return of spontaneous circulation.,,,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_14,Date/Time of Cardiac Arrest,"The date/time of the cardiac arrest (if not known, please estimate).",,Could be used to calculate time length variables,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_15,Date/Time Resuscitation Discontinued,The date/time resuscitation was discontinued.,,,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_16,Reason CPR/Resuscitation Discontinued,The reason that CPR or the resuscitation efforts were discontinued.,,,Cardiac Arrest
+FACTPCRARRESTRHYTHMDESTINATION_CA,eArrest_17,Cardiac Rhythm on Arrival at Destination,The patient's cardiac rhythm upon delivery or transfer to the destination.,,,Cardiac Arrest
+Pub_PCRevents_CA,eArrest_18,End of EMS Cardiac Arrest Event,The patient's outcome at the end of the EMS event.,,,Cardiac Arrest
+Pub_PCRevents_CA,eDispatch_01,Dispatch Reason,The dispatch reason reported to the responding unit.,,,
+Pub_PCRevents_CA,eDispatch_02,EMD Performed,Indication of whether Emergency Medical Dispatch was performed for this EMS event.,,,
+Pub_PCRevents_CA,eDisposition_12,?,?,,Not in online data dictionary,
+Pub_PCRevents_CA,eDisposition_16,EMS Transport Method,The method of transport by this EMS Unit.,,,
+Pub_PCRevents_CA,eDisposition_17,Transport Mode from Scene,Indication whether the transport was emergent or non-emergent.,,,
+FACTPCRADDITIONALTRANSPORTMODE_CA,eDisposition_18,Additional Transport Mode Descriptors,The documentation of transport mode techniques for this EMS response.,,"Lists other factors related to the EMS response, such as lights / sirens, normal-speed traffic, etc - very similar to eSituation_10",
+Pub_PCRevents_CA,eDisposition_19,Final Patient Acuity,The acuity of the patient's condition after EMS care.,Boxplot,,
+FACTPCRDESTINATIONREASON_CA,eDisposition_20,Reason for Choosing Destination,The reason the unit chose to deliver or transfer the patient to the destination.,,,
+Pub_PCRevents_CA,eDisposition_21,Type of Destination,The type of destination the patient was delivered or transferred to.,,,
+Pub_PCRevents_CA,eDisposition_22,Hospital In-Patient Destination,"The location within the hospital that the patient was taken directly by EMS (e.g., Cath Lab, ICU, etc.).",,,
+Pub_PCRevents_CA,eDisposition_23,Hospital Capability,"The primary hospital capability associated with the patient's condition for this transport (e.g., Trauma, STEMI, Peds, etc.).",,,
+FACTPCRDESTINATIONTEAM_CA,eDisposition_24,Destination Team Pre-Arrival Alert or Activation,Indication that an alert (or activation) was called by EMS to the appropriate destination healthcare facility team. The alert (or activation) should occur prior to the EMS Unit arrival at the destination with the patient.,,,
+FACTPCRBARRIERTOCARE_CA,eHistory_01,Barriers to Patient Care,Indication of whether or not there were any patient specific barriers to serving the patient at the scene.,,,
+FACTPCRALCOHOLDRUGUSEINDICATOR_CA,eHistory_17,Alcohol/Drug Use Indicators,Indicators for the potential use of alcohol or drugs by the patient related to the patient's current illness or injury.,,,
+FACTPCRCAUSEOFINJURY_CA,eInjury_01,Cause of Injury,The category of the reported/suspected external cause of the injury.,,"Coded using ICD-10-CM - see the link below for code meanings: 
+https://git.nemsis.org/projects/NEP/repos/nemsis_public/browse/SuggestedLists/eInjury.01%20-%20Cause%20of%20Injury.xlsx",
+FACTPCRTRAUMACRITERIA_CA,eInjury_03,Trauma Triage Criteria (High Risk for Serious Injury),Trauma triage criteria for the red boxes (Injury Patterns and Mental Status and Vital Signs) in the 2021 ACS National Guideline for the Field Triage of Injured Patients.,Boxplot,,Risk factors
+FACTPCRINJURYRISKFACTOR_CA,eInjury.04,Trauma Triage Criteria (Moderate Risk for Serious Injury),Trauma triage criteria for the yellow boxes (Mechanism of Injury and EMS Judgment) in the 2021 ACS National Guideline for the Field Triage of Injured Patients.,Boxplot,,Risk factors
+FACTPCRMEDICATION_CA,eMedications_02,Medication Administered Prior to this Unit's EMS Care,Indicates that the medication administration which is documented was administered prior to this EMS units care.,,,Medication
+FACTPCRMEDICATION_CA,eMedications_03,Medication Administered,The medication administered to the patient.,,"Codes to interpret meanings can be found here: 
+https://nemsis.org/media/nemsis_v3/master/SuggestedLists/NEMSIS_V3_Suggested_List_eMedications.03.pdf",Medication
+FACTPCRMEDICATION_CA,eMedications_03Descr,Medication Administered (in words),The medication administered to the patient in words,,,Medication
+FACTPCRMEDICATION_CA,eMedications_05,Medication Dosage,The dose or amount of the medication administered to the patient.,,,Medication
+FACTPCRMEDICATION_CA,eMedications_06,Medication Dosage Units,The unit of medication dosage administered to patient.,,,Medication
+FACTPCRMEDICATION_CA,eMedications_07,Response to Medication,The patient's response to the medication.,,,Medication
+FACTPCRMEDICATION_CA,eMedications_10,Role/Type of Person Administering Medication,"The type (level) of EMS or Healthcare Professional Administering the Medication. For medications administered prior to EMS arrival, this may be a non-EMS healthcare professional.",,,Medication
+FACTPCRWORKRELATEDEXPOSURE_CA,eOther_05,"Suspected EMS Work Related Exposure, Injury, or Death","Indication of an EMS work related exposure, injury, or death associated with this EMS event.",Boxplot,,
+Pub_PCRevents_CA,eOutcome_01,Emergency Department Disposition,The known disposition of the patient from the Emergency Department (ED).,,,Outcome
+Pub_PCRevents_CA,eOutcome_02,Hospital Disposition,"The known disposition of the patient from the hospital, if admitted.",,,Outcome
+Pub_PCRevents_CA,ePatient_13,Gender,The patient's gender.,Boxplot,,Patient Demographics
+PCRPATIENTRACEGROUP_CA,ePatient_14,Patient Race,The patient's race as defined by the OMB (US Office of Management and Budget).,Boxplot,,Patient Demographics
+Pub_PCRevents_CA,ePatient_15,Age,The patient's age (either calculated from date of birth or best approximation).,,,Patient Demographics
+Pub_PCRevents_CA,ePatient_16,Age Units,The unit used to define the patient's age.,,,
+Pub_PCRevents_CA,ePayment_01,Primary Method of Payment,The primary method of payment or type of insurance associated with this EMS encounter.,,,
+Pub_PCRevents_CA,ePayment_50,CMS Service Level,The CMS service level for this EMS encounter.,,,
+FACTPCRPROCEDURE_CA,eProcedures_01,Date/Time Procedure Performed,The date/time the procedure was performed on the patient.,,Could be used to calculate time taken to procedure,Procedure
+FACTPCRPROCEDURE_CA,eProcedures_02,Procedure Performed Prior to this Unit's EMS Care,Indicates that the procedure which was performed and documented was performed prior to this EMS units care.,,,Procedure
+FACTPCRPROCEDURE_CA,eProcedures_03,Procedure,The procedure performed on the patient.,,"Procedures codes listed here:
+https://git.nemsis.org/projects/NEP/repos/nemsis_public/browse/SuggestedLists/eProcedures.03%2C%20dConfiguration.03%2C%20dConfiguration.07%20-%20Procedures.xlsx",Procedure
+FACTPCRPROCEDURE_CA,eProcedures_05,Number of Procedure Attempts,The number of attempts taken to complete a procedure or intervention regardless of success.,,,Procedure
+FACTPCRPROCEDURE_CA,eProcedures_06,Procedure Successful,Indicates that this individual procedure attempt which was performed on the patient was successful.,,,Procedure
+FACTPCRPROCEDURE_CA,eProcedures_08,Response to Procedure,The patient's response to the procedure.,,,Procedure
+FACTPCRPROCEDURE_CA,eProcedures_10,Role/Type of Person Performing the Procedure,"The type (level) of EMS or Healthcare Professional performing the procedure. For procedures performed prior to EMS arrival, this may be a non-EMS healthcare professional.",,,Procedure
+FACTPCRPROTOCOL_CA,eProtocol_01,Protocols Used,The protocol used by EMS personnel to direct the clinical care of the patient.,"Protocol counts listed, too many to visualize effectively with graph",,
+FACTPCRPROTOCOL_CA,eProtocol_02,Protocol Age Category,"The age group the protocol is written to address - child, adult, or general",Boxplot,,
+Pub_PCRevents_CA,eResponse_05,Type of Service Requested,The type of service or category of service requested of the EMS Agency responding for this specific EMS event.,,,
+Pub_PCRevents_CA,eResponse_07,Unit Transport and Equipment Capability,The transport and equipment capabilities of the EMS Unit which responded to this specific EMS event.,,,
+FACTPCRDISPATCHDELAY_CA,eResponse_08,Type of Dispatch Delay,"The dispatch delays, if any, associated with the dispatch of the EMS unit to the EMS event.",Boxplot,,Types of delays
+FACTPCRRESPONSEDELAY_CA,eResponse_09,Type of Response Delay,"The response delays, if any, of the EMS unit associated with the EMS event.",,,Types of delays
+FACTPCRSCENEDELAY_CA,eResponse_10,Type of Scene Delay,"The scene delays, if any, of the EMS unit associated with the EMS event.",Boxplot,,Types of delays
+FACTPCRTRANSPORTDELAY_CA,eResponse_11,Type of Transport Delay,"The transport delays, if any, of the EMS unit associated with the EMS event.",Boxplot,,Types of delays
+FACTPCRTURNAROUNDDELAY_CA,eResponse_12,Type of Turn-Around Delay,"The turn-around delays, if any, of EMS unit associated with the EMS event.",Boxplot,,Types of delays
+Pub_PCRevents_CA,eResponse_15,?,?,,Not in online data dictionary,
+Pub_PCRevents_CA,eResponse_23,Response Mode to Scene,The indication whether the response was emergent or non-emergent. An emergent response is an immediate response.,,,
+FACTPCRADDITIONALRESPONSEMODE_CA,eResponse_24,Additional Response Mode Descriptors,The documentation of response mode techniques used for this EMS response.,,"Lists other factors related to the EMS response, such as lights / sirens, normal-speed traffic, etc - not super useful",
+Pub_PCRevents_CA,eScene_01,First EMS Unit on Scene,Documentation that this EMS Unit was the first EMS Unit among all EMS Agencies on the Scene.,,,
+Pub_PCRevents_CA,eScene_06,Number of Patients at Scene,Indicator of how many total patients were at the scene.,,,
+Pub_PCRevents_CA,eScene_07,Mass Casualty Incident,Indicator if this event would be considered a mass casualty incident (overwhelmed existing EMS resources).,,,
+Pub_PCRevents_CA,eScene_08,Triage Classification for MCI Patient,The color associated with the initial triage assessment/classification of the MCI patient.,Boxplot,,
+Pub_PCRevents_CA,eScene_09,Incident Location Type,The kind of location where the incident happened.,,"Coded using ICD-10-CM - see the link below for code meanings: 
+https://nemsis.org/technical-resources/version-3/version-3-resource-repository/",
+Pub_PCRevents_CA,eSituation_01,Date/Time of Symptom Onset,"The date and time the symptom began (or was discovered) as it relates to this EMS event. This is described or estimated by the patient, family, and/or healthcare professionals.",,Could be used to calculate length of time ,
+Pub_PCRevents_CA,eSituation_02,Possible Injury,Indication whether or not there was an injury.,,,
+Pub_PCRevents_CA,eSituation_07,Chief Complaint Anatomic Location,The primary anatomic location of the chief complaint as identified by EMS personnel.,,,
+Pub_PCRevents_CA,eSituation_08,Chief Complaint Organ System,The primary organ system of the patient injured or medically affected.,,,
+FACTPCRADDITIONALSYMPTOM_CA,eSituation_10,Other Associated Symptoms,Other symptoms identified by the patient or observed by EMS personnel.,,"Coded using ICD-10-CM - see the link below for code meanings: 
+https://nemsis.org/technical-resources/version-3/version-3-resource-repository/",
+Pub_PCRevents_CA,eSituation_13,Initial Patient Acuity,The acuity of the patient's condition upon EMS arrival at the scene.,,,
+FACTPCRPRIMARYSYMPTOM_CA,eSituation.09,Primary Symptom,The primary sign and symptom present in the patient or observed by EMS personnel.,,ICD-10-CM coded answers - see eSituation12,Observed symptoms
+FACTPCRPRIMARYIMPRESSION_CA,eSituation.11,Provider's Primary Impression,"The EMS personnel's impression of the patient's primary problem or most significant condition which led to the management given to the patient (treatments, medications, or procedures).",,ICD-10-CM coded answers - see eSituation12,Observed symptoms
+FACTPCRSECONDARYIMPRESSION_CA,eSituation12,Provider's Secondary Impressions,"The EMS personnel's impression of the patient's secondary problem or most significant condition which led to the management given to the patient (treatments, medications, or procedures).",,"This variable contains codes for many different impressions from EMS - not worth visualizing all of them, but could be useful for our analysis. Descriptions include various aspects of the patients health in the following categories: 
+Abdominal
+Alcohol/Drug Exposure
+Cardiovascular
+Digestive
+Emotional State/Behavior
+Endocrine/Urinary
+Illness
+Injury
+Level of Consciousness
+Malaise
+Mobility
+Neurological
+No Patient Complaint
+Other
+Pain
+Reproductive System
+Respiratory
+Code meanings: https://git.nemsis.org/projects/NEP/repos/nemsis_public/browse/SuggestedLists/eSituation.11%20and%20eSituation.12%20-%20Provider%20Impression.xlsx",Observed symptoms
+Pub_PCRevents_CA,eTimes_01,PSAP Call Date/Time,The date/time the phone rings (911 call to public safety answering point or other designated entity) requesting EMS services.,,Could be used to calculate length of time ,
+Pub_PCRevents_CA,eTimes_03,Unit Notified by Dispatch Date/Time,Could be used to calculate length of time ,,Could be used to calculate length of time ,
+Pub_PCRevents_CA,eTimes_05,Unit En Route Date/Time,"The date/time the unit responded; that is, the time the vehicle started moving.",,,
+Pub_PCRevents_CA,eTimes_06,Unit Arrived on Scene Date/Time,"The date/time the responding unit arrived on the scene; that is, the time the vehicle stopped moving at the scene.",,,
+Pub_PCRevents_CA,eTimes_07,Arrived at Patient Date/Time,The date/time the responding unit arrived at the patient's side.,,Could be used to calculate length of time ,
+Pub_PCRevents_CA,eTimes_09,Unit Left Scene Date/Time,The date/time the responding unit left the scene (started moving).,,,
+Pub_PCRevents_CA,eTimes_11,Patient Arrived at Destination Date/Time,The date/time the responding unit arrived with the patient at the destination or transfer point.,,Could be used to calculate length of time ,
+Pub_PCRevents_CA,eTimes_12,Destination Patient Transfer of Care Date/Time,The date/time that patient care was transferred to the destination healthcare staff.,,Could be used to calculate length of time ,
+Pub_PCRevents_CA,eTimes_13,Unit Back in Service Date/Time,"The date/time the unit back was back in service and available for response (finished with call, but not necessarily back in home location).",,Could be used to calculate length of time ,
+FACTPCRVITAL_CA,eVitals.01,Date/Time Vital Signs Taken,The date/time vital signs were taken on the patient.,,Could be used to calculate data about response time,Vitals
+FACTPCRVITAL_CA,eVitals.04,ECG Type,The type of ECG associated with the cardiac rhythm.,,,Vitals
+FACTPCRVITAL_CA,eVitals.06,SBP (Systolic Blood Pressure),The patient's systolic blood pressure.,Histogram,,Vitals
+FACTPCRVITAL_CA,eVitals.08,Method of Blood Pressure Measurement,Indication of method of blood pressure measurement.,,,Vitals
+FACTPCRVITAL_CA,eVitals.10,Heart Rate,The patient's heart rate expressed as a number per minute.,Histogram,,Vitals
+FACTPCRVITAL_CA,eVitals.12,Pulse Oximetry,The patient's oxygen saturation.,,,Vitals
+FACTPCRVITAL_CA,eVitals.14,Respiratory Rate,The patient's respiratory rate expressed as a number per minute.,,,Vitals
+FACTPCRVITAL_CA,eVitals.16,End Tidal Carbon Dioxide (ETCO2),"The numeric value of the patient's exhaled end tidal carbon dioxide (ETCO2) level measured as a unit of pressure in millimeters of mercury (mmHg), percentage or, kilopascal (kPa).",,,Vitals
+FACTPCRVITAL_CA,eVitals.18,Blood Glucose Level,The patient's blood glucose level.,,,Vitals
+FACTPCRVITAL_CA,eVitals.19,Glasgow Coma Score-Eye,The patient's Glasgow Coma Score Eye opening response.,,,Vitals
+FACTPCRVITAL_CA,eVitals.20,Glasgow Coma Score-Verbal,The patient's Glasgow Coma Score Verbal response.,,,Vitals
+FACTPCRVITAL_CA,eVitals.21,Glasgow Coma Score-Motor,The patient's Glasgow Coma Score Motor response.,,,Vitals
+FACTPCRVITAL_CA,eVitals.26,Level of Responsiveness (AVPU),The patient's highest level of responsiveness.,,,Vitals
+FACTPCRVITAL_CA,eVitals.27,,,,,
+FACTPCRVITAL_CA,eVitals.29,Stroke Scale Score,The findings or results of the Stroke Scale Type (eVitals.30) used to assess the patient exhibiting stroke-like symptoms.,,,Vitals
+FACTPCRVITAL_CA,eVitals.30,Stroke Scale Type,The type of stroke scale used.,,,Vitals
+FACTPCRVITAL_CA,eVitals.31,Reperfusion Checklist,The results of the patient's Reperfusion Checklist for potential Thrombolysis use.,,,Vitals
+ComputedElements_CA,USCensusRegion,Census Region,Where the event occurred,,,
+ComputedElements_CA,USCensusDivision,Census Division,Where the event occurred,,Not part of original Nemsis dataset,Geographic
+ComputedElements_CA,NasemsoRegion,Region Name,"Region where the event occurred (south, east, great lakes, etc)",,Not part of original Nemsis dataset,Geographic
+ComputedElements_CA,Urbanicity,Urbanicity,"Categorical variable for the location of the event: rural, urban, wilderness",Boxplot,Not part of original Nemsis dataset,Geographic
+ComputedElements_CA,ageinyear,Age in Years,Computed age of patient in years,,Not part of original Nemsis dataset,Patient Demographics
+ComputedElements_CA,EMSDispatchCenterTimeSec,EMS Dispatch Center Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSChuteTimeMin,EMS Chute Time,Time from EMS dispatch to EMS starting to respond to a call,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSSystemResponseTimeMin,EMS System Response Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSSceneResponseTimeMin,EMS Scene Response Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSSceneTimeMin,EMS Scene Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSSceneToPatientTimeMin,EMS Scene ti Patient Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSTransportTimeMin,EMS Transport Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time
+ComputedElements_CA,EMSTotalCallTimeMin,EMS Total Call Time,Will need to ask stakeholder,,Not part of original Nemsis dataset,Time

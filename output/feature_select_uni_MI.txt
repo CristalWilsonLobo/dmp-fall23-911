@@ -1,0 +1,726 @@
+Feature	{scoringMetric}	P-Value
+cat__USCensusRegion_         	0.0001828408497603906	None
+cat__USCensusRegion_Midwest  	0.0033177229301433186	None
+cat__USCensusRegion_Northeast	0.0024157768882901998	None
+cat__USCensusRegion_South    	0.01763239479379597	None
+cat__USCensusRegion_West     	0.002386717729454757	None
+cat__USCensusDivision_                  	0.0	None
+cat__USCensusDivision_East North Central	0.0022356113673047684	None
+cat__USCensusDivision_East South Central	0.001877737667628443	None
+cat__USCensusDivision_Middle Atlantic   	0.002389132860318277	None
+cat__USCensusDivision_Mountain          	0.0	None
+cat__USCensusDivision_New England       	0.0	None
+cat__USCensusDivision_Pacific           	0.0007402886496941097	None
+cat__USCensusDivision_South Atlantic    	0.005899250911902687	None
+cat__USCensusDivision_West North Central	0.0011761468993318758	None
+cat__USCensusDivision_West South Central	0.0010284230472443756	None
+cat__NasemsoRegion_              	0.0007547579409392657	None
+cat__NasemsoRegion_East          	0.005569065871424472	None
+cat__NasemsoRegion_Great Lakes   	0.0022123618954768	None
+cat__NasemsoRegion_South         	0.013149826851164503	None
+cat__NasemsoRegion_West          	0.002687243414067675	None
+cat__NasemsoRegion_Western Plains	0.00021132453124006467	None
+cat__Urbanicity_          	0.0	None
+cat__Urbanicity_Rural     	0.0	None
+cat__Urbanicity_Suburban  	0.000802092877511873	None
+cat__Urbanicity_Urban     	0.022398746889100263	None
+cat__Urbanicity_Wilderness	0.000194551907408691	None
+cat__eDispatch_02_No	0.0013506241522955875	None
+cat__eDispatch_02_Not Applicable	0.00023481142407777433	None
+cat__eDispatch_02_Not Recorded	0.01426110359692867	None
+cat__eDispatch_02_Yes, Unknown if Pre-Arrival Instructions Given	0.003436944438205858	None
+cat__eDispatch_02_Yes, With Pre-Arrival Instructions	0.003855924609541539	None
+cat__eDispatch_02_Yes, Without Pre-Arrival Instructions	0.0007872549536218632	None
+cat__eArrest_01_Yes, After EMS Arrival	0.01315931634971057	None
+cat__eArrest_01_Yes, Prior to EMS Arrival	0.03261359754648452	None
+cat__eArrest_02_Cardiac (Presumed)	0.027856448506920373	None
+cat__eArrest_02_Drowning/Submersion	0.0014825685180457349	None
+cat__eArrest_02_Drug Overdose	0.0025749045240872626	None
+cat__eArrest_02_Electrocution	0.0	None
+cat__eArrest_02_Exsanguination	0.0011643931437170796	None
+cat__eArrest_02_Not Applicable	0.0	None
+cat__eArrest_02_Not Recorded	0.001144328715954268	None
+cat__eArrest_02_Other	0.0022926054801395424	None
+cat__eArrest_02_Respiratory/Asphyxia	0.0069346261241955975	None
+cat__eArrest_02_Trauma	0.002904734689869626	None
+cat__eArrest_05_9923001	0.017436555467448933	None
+cat__eArrest_05_9923003	0.019502619678211097	None
+cat__eArrest_05_Not Applicable	0.0	None
+cat__eArrest_05_Not Recorded	0.004727554378835208	None
+cat__eArrest_07_No	0.02680475026853668	None
+cat__eArrest_07_Not Applicable	3.0305146296427665e-05	None
+cat__eArrest_07_Not Recorded	5.5348174532010574e-05	None
+cat__eArrest_07_Yes, Applied without Defibrillation	0.0023147895141577557	None
+cat__eArrest_07_Yes, With Defibrillation	0.009292161036648316	None
+cat__eArrest_11_3011001   	0.05767178979949805	None
+cat__eArrest_11_3011005   	0.015081861801441443	None
+cat__eArrest_11_3011007   	0.0018227970991084863	None
+cat__eArrest_11_3011009   	0.0038429407626134893	None
+cat__eArrest_11_3011011   	0.017999591516725033	None
+cat__eArrest_11_3011013   	0.004495954517281131	None
+cat__eArrest_11_7701001   	0.0006025934416686862	None
+cat__eArrest_11_7701003   	0.0018660763118403256	None
+cat__eArrest_11_Unknown   	0.0007045004306878155	None
+cat__eDisposition_16_Air Medical-Fixed Wing	0.0	None
+cat__eDisposition_16_Air Medical-Rotor Craft	0.006695715448039596	None
+cat__eDisposition_16_Ground-ATV or Rescue Vehicle	0.0	None
+cat__eDisposition_16_Ground-Ambulance	0.08457431690639705	None
+cat__eDisposition_16_Ground-Bariatric	0.0	None
+cat__eDisposition_16_Ground-Mass Casualty Bus/Vehicle	0.000182085819318889	None
+cat__eDisposition_16_Ground-Other Not Listed	0.0005960174755983427	None
+cat__eDisposition_16_Ground-Wheelchair Van	0.0010385434499513568	None
+cat__eDisposition_16_Not Applicable	0.02501627377429183	None
+cat__eDisposition_16_Not Recorded	0.059978518388694946	None
+cat__eDisposition_16_Water-Boat	0.0	None
+cat__eOutcome_02_1	0.0	None
+cat__eOutcome_02_2	0.0	None
+cat__eOutcome_02_3	2.312555651706738e-05	None
+cat__eOutcome_02_4	0.0	None
+cat__eOutcome_02_5	0.0	None
+cat__eOutcome_02_6	0.0	None
+cat__eOutcome_02_7	0.0	None
+cat__eOutcome_02_Deceased/Expired (or did not recover - Religious Non Medical Health Care Patient)	0.0	None
+cat__eOutcome_02_Discharged/transferred to Hospice - home.	0.0	None
+cat__eOutcome_02_Discharged/transferred to a Critical Access Hospital (CAH).	0.0	None
+cat__eOutcome_02_Discharged/transferred to a inpatient rehabilitation facility including distinct part units of a hospital.	0.00025065948021718576	None
+cat__eOutcome_02_Discharged/transferred to another type of health care institution not defined elsewhere in the code list.	0.0	None
+cat__eOutcome_02_Discharged/transferred to long term care hospitals	0.0	None
+cat__eOutcome_02_Not Applicable	0.012695698267431998	None
+cat__eOutcome_02_Not Recorded	0.027900798808463856	None
+cat__eOutcome_02_Still a patient or expected to return for outpatient services.	0.000771834775130209	None
+cat__ePatient_13_Female	0.009771724517408265	None
+cat__ePatient_13_Male	0.022729158722360365	None
+cat__ePatient_13_Not Applicable	0.0014187530516860392	None
+cat__ePatient_13_Not Recorded	0.0	None
+cat__ePatient_13_Unknown (Unable to Determine)	0.0011704424014207238	None
+cat__ePatient_16_Days	0.0	None
+cat__ePatient_16_Hours	0.0005649807801682005	None
+cat__ePatient_16_Minutes	0.0	None
+cat__ePatient_16_Months	0.001124624215860237	None
+cat__ePatient_16_Not Applicable	0.0	None
+cat__ePatient_16_Not Recorded	0.0	None
+cat__ePatient_16_Years	0.020133366217694793	None
+cat__ePayment_01_Community Network	0.0020079737158580357	None
+cat__ePayment_01_Contracted Payment	0.0	None
+cat__ePayment_01_Insurance	0.002255766623835198	None
+cat__ePayment_01_Medicaid	0.0	None
+cat__ePayment_01_Medicare	0.002554711264419751	None
+cat__ePayment_01_No Insurance Identified	0.0017365634702390942	None
+cat__ePayment_01_Not Applicable	0.002380064773560342	None
+cat__ePayment_01_Not Billed (for any reason)	0.0015593982986468191	None
+cat__ePayment_01_Not Recorded	0.022628462382203285	None
+cat__ePayment_01_Other Government	0.00032760176616175585	None
+cat__ePayment_01_Other Payment Option	0.0015218459446877386	None
+cat__ePayment_01_Payment by Facility	0.0	None
+cat__ePayment_01_Self Pay	0.0	None
+cat__ePayment_01_Workers Compensation	0.000853151731257995	None
+cat__ePayment_50_ALS, Level 1	0.00206509729417359	None
+cat__ePayment_50_ALS, Level 1 Emergency	0.004754514243928254	None
+cat__ePayment_50_ALS, Level 2	0.0021350944880926814	None
+cat__ePayment_50_BLS	0.00030706790069978673	None
+cat__ePayment_50_BLS, Emergency	0.0041254429757997535	None
+cat__ePayment_50_Fixed Wing (Airplane)	0.0	None
+cat__ePayment_50_Not Applicable	0.003975144447100121	None
+cat__ePayment_50_Not Recorded	0.024107878053243104	None
+cat__ePayment_50_Paramedic Intercept	0.000210852474460399	None
+cat__ePayment_50_Rotary Wing (Helicopter)	0.0009623864089030043	None
+cat__ePayment_50_Specialty Care Transport	0.0007593473865130651	None
+cat__eResponse_05_911 Response (Scene)	0.025566845137023675	None
+cat__eResponse_05_Intercept	0.0	None
+cat__eResponse_05_Interfacility Transport	0.006502501654119586	None
+cat__eResponse_05_Medical Transport	0.0	None
+cat__eResponse_05_Mutual Aid	8.58848251250599e-05	None
+cat__eResponse_05_Public Assistance/Other Not Listed	0.0001251783880757973	None
+cat__eResponse_05_Standby	0.00044836222328847875	None
+cat__eResponse_07_2207003   	0.015977592463444434	None
+cat__eResponse_07_2207005   	0.0	None
+cat__eResponse_07_2207007   	0.001187601875480615	None
+cat__eResponse_07_2207009   	0.0008080039660951499	None
+cat__eResponse_07_2207011   	0.002276672864758744	None
+cat__eResponse_07_2207013   	0.0	None
+cat__eResponse_07_Air Transport-Fixed Wing	0.0	None
+cat__eResponse_07_Air Transport-Helicopter	0.0016000644714329049	None
+cat__eResponse_07_Ground Transport	0.00726022669442794	None
+cat__eResponse_07_Non-Transport Administrative (e.g., Supervisor)	0.00019706153622656153	None
+cat__eResponse_07_Non-Transport Assistance	0.0021836437486655313	None
+cat__eResponse_07_Non-Transport Rescue	0.0	None
+cat__eResponse_07_Unknown   	0.0	None
+cat__eResponse_15_ALS-AEMT	0.0	None
+cat__eResponse_15_ALS-Community Paramedicine	0.0	None
+cat__eResponse_15_ALS-Intermediate	0.0007409952719348301	None
+cat__eResponse_15_ALS-Nurse	0.0015183224269796902	None
+cat__eResponse_15_ALS-Paramedic	0.021953922597997	None
+cat__eResponse_15_ALS-Physician	0.0	None
+cat__eResponse_15_BLS-AEMT	0.0	None
+cat__eResponse_15_BLS-Basic /EMT	0.002919987130487911	None
+cat__eResponse_15_BLS-Community Paramedicine	0.0	None
+cat__eResponse_15_BLS-First Responder/EMR	0.001709891010247988	None
+cat__eResponse_15_BLS-Intermediate	0.0	None
+cat__eResponse_15_Specialty Critical Care	0.0016901001310849484	None
+cat__eResponse_23_Emergent (Immediate Response)	0.02506258110501358	None
+cat__eResponse_23_Emergent Downgraded to Non-Emergent	0.0	None
+cat__eResponse_23_Non-Emergent	0.0002527380557080239	None
+cat__eResponse_23_Non-Emergent Upgraded to Emergent	0.0007732826681903227	None
+cat__eScene_01_9923001	0.0015394006678377536	None
+cat__eScene_01_9923003	0.02166305381235678	None
+cat__eScene_01_Not Applicable	0.0	None
+cat__eScene_01_Not Recorded	0.0029388011090012434	None
+cat__eScene_06_Multiple	0.0	None
+cat__eScene_06_Not Applicable	0.0	None
+cat__eScene_06_Not Recorded	0.0028481832514077876	None
+cat__eScene_06_Single	0.01746642177558	None
+cat__eScene_07_9923001	0.022576005198048588	None
+cat__eScene_07_9923003	0.0	None
+cat__eScene_07_Not Applicable	0.0	None
+cat__eScene_07_Not Recorded	0.005272708842613882	None
+cat__eScene_08_Black - Deceased	0.0015786813000788769	None
+cat__eScene_08_Gray - Expectant	0.000975107059011826	None
+cat__eScene_08_Green - Minimal (Minor)	0.00040210500075521516	None
+cat__eScene_08_Not Applicable	0.011108977288344146	None
+cat__eScene_08_Not Recorded	0.029394279154358438	None
+cat__eScene_08_Red - Immediate	0.0020691687865304065	None
+cat__eScene_08_Yellow - Delayed	0.0	None
+cat__eSituation_02_9922001	0.021660780512591682	None
+cat__eSituation_02_9922003	0.0010783896320678554	None
+cat__eSituation_02_9922005	0.00027094567703955796	None
+cat__eSituation_02_Not Applicable	0.00117571182820142	None
+cat__eSituation_02_Not Recorded	0.0	None
+cat__eSituation_07_Abdomen	0.0002718683967577462	None
+cat__eSituation_07_Back	0.00010348209756783078	None
+cat__eSituation_07_Chest	0.0014950348036859573	None
+cat__eSituation_07_Extremity-Lower	0.0	None
+cat__eSituation_07_Extremity-Upper	0.0	None
+cat__eSituation_07_General/Global	0.018978359566143244	None
+cat__eSituation_07_Genitalia	0.0	None
+cat__eSituation_07_Head	0.00011232612588796265	None
+cat__eSituation_07_Neck	0.0	None
+cat__eSituation_07_Not Applicable	0.0006778788953134551	None
+cat__eSituation_07_Not Recorded	0.0068129279152817634	None
+cat__eSituation_08_Behavioral/Psychiatric	4.7788135012938326e-05	None
+cat__eSituation_08_CNS/Neuro	0.0	None
+cat__eSituation_08_Cardiovascular	0.008648709610746375	None
+cat__eSituation_08_Endocrine/Metabolic	1.5403376426137427e-05	None
+cat__eSituation_08_GI	0.0	None
+cat__eSituation_08_Global/General	0.006726498644144208	None
+cat__eSituation_08_Lymphatic/Immune	0.0010743695703112621	None
+cat__eSituation_08_Musculoskeletal/Skin	0.0009054729252377935	None
+cat__eSituation_08_Not Applicable	0.001250352419657208	None
+cat__eSituation_08_Not Recorded	0.008551461589755727	None
+cat__eSituation_08_Pulmonary	0.0027697511211439707	None
+cat__eSituation_08_Renal	0.0003161064844339201	None
+cat__eSituation_08_Reproductive	0.0006839902041526624	None
+cat__eDisposition_17_Emergent (Immediate Response)	0.11773194415527688	None
+cat__eDisposition_17_Emergent Downgraded to Non-Emergent	0.0013224501912578734	None
+cat__eDisposition_17_Non-Emergent	0.0025037225776938232	None
+cat__eDisposition_17_Non-Emergent Upgraded to Emergent	0.0	None
+cat__eDisposition_17_Not Applicable	0.03665210327880297	None
+cat__eDisposition_17_Not Recorded	0.08297140707429174	None
+cat__eProtocol_02_3602001.0	0.0018122426703635064	None
+cat__eProtocol_02_3602003.0	0.023707405393992076	None
+cat__eProtocol_02_3602005.0	0.00032202655027169236	None
+cat__eArrest_12_No	0.02213646204177122	None
+cat__eArrest_12_Not Applicable	0.0011139591140463256	None
+cat__eArrest_12_Not Recorded	0.0013217440850350481	None
+cat__eArrest_12_Yes, At Arrival at the ED	0.0	None
+cat__eArrest_12_Yes, Prior to Arrival at the ED	0.0	None
+cat__eArrest_12_Yes, Sustained for 20 consecutive minutes	0.002643110504594759	None
+cat__eMedications_06_Centimeters (cm)	0.0	None
+cat__eMedications_06_Drops (gtts)	0.0008890283019571399	None
+cat__eMedications_06_Grams (gms)	0.0	None
+cat__eMedications_06_Inches (in)	0.0009631937509024802	None
+cat__eMedications_06_International Units (IU)	0.0	None
+cat__eMedications_06_Keep Vein Open (kvo)	0.0	None
+cat__eMedications_06_Liters (l)	0.0005767102376461608	None
+cat__eMedications_06_Liters Per Minute (LPM [gas])	0.0	None
+cat__eMedications_06_Liters Per Minute (l/min [fluid])	0.00047393615299395897	None
+cat__eMedications_06_Metered Dose (MDI)	0.0	None
+cat__eMedications_06_Micrograms (mcg)	0.0	None
+cat__eMedications_06_Micrograms per Kilogram (mcg/kg)	0.0	None
+cat__eMedications_06_Micrograms per Kilogram per Minute (mcg/kg/min)	0.0011025379176523575	None
+cat__eMedications_06_Micrograms per Minute (mcg/min)	0.0	None
+cat__eMedications_06_Milliequivalents (mEq)	0.0	None
+cat__eMedications_06_Milligrams (mg)	0.02200561687999314	None
+cat__eMedications_06_Milligrams per Kilogram (mg/kg)	0.0003534223705832229	None
+cat__eMedications_06_Milligrams per Kilogram Per Minute (mg/kg/min)	0.0009027466403226381	None
+cat__eMedications_06_Milligrams per Minute (mg/min)	0.0005929640821171756	None
+cat__eMedications_06_Milliliters (ml)	0.0012688696987364079	None
+cat__eMedications_06_Milliliters per Hour (ml/hr)	0.0	None
+cat__eMedications_06_Not Applicable	0.0	None
+cat__eMedications_06_Not Recorded	0.002665713674635306	None
+cat__eMedications_06_Other	0.0	None
+cat__eMedications_06_Puffs	0.0	None
+cat__eMedications_06_Units	0.0	None
+cat__eMedications_06_Units per Hour (units/hr)	0.00010436476384323434	None
+cat__eMedications_06_Units per Kilogram (units/kg)	0.00034654289588642584	None
+cat__eMedications_07_9916001	0.0016093009668565195	None
+cat__eMedications_07_9916003	0.022334296805800236	None
+cat__eMedications_07_9916005	0.0	None
+cat__eMedications_07_Not Applicable	0.0006889471332387487	None
+cat__eMedications_07_Not Recorded	0.002645219260416498	None
+cat__eMedications_10_7701001   	0.0	None
+cat__eMedications_10_7701003   	0.0	None
+cat__eMedications_10_9905001	0.0	None
+cat__eMedications_10_9905001   	0.0009214548768710085	None
+cat__eMedications_10_9905003   	0.0004172836200266872	None
+cat__eMedications_10_9905005   	0.001310802699568292	None
+cat__eMedications_10_9905007	0.00036173050993193456	None
+cat__eMedications_10_9905007   	0.006313185854430525	None
+cat__eMedications_10_9905009	0.0	None
+cat__eMedications_10_9905009   	0.0	None
+cat__eMedications_10_9905011	0.0	None
+cat__eMedications_10_9905011   	0.0	None
+cat__eMedications_10_9905013	0.0	None
+cat__eMedications_10_9905013   	0.010025906519683492	None
+cat__eMedications_10_9905015   	0.0	None
+cat__eMedications_10_9905019   	3.536318519592463e-05	None
+cat__eMedications_10_9905021   	0.0015252739925406544	None
+cat__eMedications_10_9905023   	0.0	None
+cat__eMedications_10_9905025   	0.0	None
+cat__eMedications_10_9905027   	0.0	None
+cat__eMedications_10_9905029	0.0	None
+cat__eMedications_10_9905029   	0.0	None
+cat__eMedications_10_9905031	0.0	None
+cat__eMedications_10_9905031   	0.0008673405147887614	None
+cat__eMedications_10_9905033   	0.0	None
+cat__eMedications_10_9905035   	0.0	None
+cat__eMedications_10_9905039   	0.0014113189437674478	None
+cat__eMedications_10_9905041   	0.0	None
+cat__eMedications_10_Not Applicable	0.0008104765087613153	None
+cat__eMedications_10_Not Recorded	0.0	None
+cat__eMedications_10_Unknown   	0.00028347863229560843	None
+cat__eMedications_02_9923001	0.023853022314674677	None
+cat__eMedications_02_9923003	0.0	None
+cat__eMedications_02_Not Applicable	5.320229271710275e-05	None
+cat__eMedications_02_Not Recorded	0.0011038407136938488	None
+cat__eDisposition_20_Closest Facility	0.006163027778162133	None
+cat__eDisposition_20_Diversion	0.0	None
+cat__eDisposition_20_Family Choice	0.000863757870035009	None
+cat__eDisposition_20_Insurance Status/Requirement	0.0	None
+cat__eDisposition_20_Law Enforcement Choice	0.0	None
+cat__eDisposition_20_Not Applicable	0.0008135626944492103	None
+cat__eDisposition_20_Not Recorded	0.010594881693297253	None
+cat__eDisposition_20_On-Line/On-Scene Medical Direction	0.00027412505218316063	None
+cat__eDisposition_20_Other	0.0	None
+cat__eDisposition_20_Patient's Choice	0.0	None
+cat__eDisposition_20_Patient's Physician's Choice	0.0	None
+cat__eDisposition_20_Protocol	0.00016775375750333055	None
+cat__eDisposition_20_Regional Specialty Center	0.0	None
+cat__eDisposition_24_No	0.0012787885982050717	None
+cat__eDisposition_24_Not Applicable	0.0012076434859764618	None
+cat__eDisposition_24_Not Recorded	0.02241706524543252	None
+cat__eDisposition_24_Yes-Adult Trauma	0.0	None
+cat__eDisposition_24_Yes-Cardiac Arrest	0.0	None
+cat__eDisposition_24_Yes-Obstetrics	0.0	None
+cat__eDisposition_24_Yes-Other	0.0008383244247096577	None
+cat__eDisposition_24_Yes-Pediatric Trauma	0.0013719093071073996	None
+cat__eDisposition_24_Yes-STEMI	0.00018331066921550843	None
+cat__eDisposition_24_Yes-Stroke	0.0	None
+cat__eDisposition_24_Yes-Trauma (General)	0.00035030174061101427	None
+cat__eOther_05_9923001.0	0.018967816640037105	None
+cat__eOther_05_9923003.0	0.0012189096833747914	None
+cat__eResponse_10_Awaiting Air Unit	0.0006822021719155025	None
+cat__eResponse_10_Awaiting Ground Unit	0.0006621039592549227	None
+cat__eResponse_10_Crowd	0.0	None
+cat__eResponse_10_Directions/Unable to Locate	0.0004719075906782777	None
+cat__eResponse_10_Distance	0.0007533533387626967	None
+cat__eResponse_10_Extrication	0.0	None
+cat__eResponse_10_HazMat	0.0007827753320162056	None
+cat__eResponse_10_Language Barrier	3.554059846311297e-05	None
+cat__eResponse_10_Mechanical Issue-Unit, Equipment, etc.	0.0010622905620361056	None
+cat__eResponse_10_None/No Delay	0.02202161458760532	None
+cat__eResponse_10_Not Applicable	0.0	None
+cat__eResponse_10_Not Recorded	0.006420072652124187	None
+cat__eResponse_10_Other	4.587516152465554e-05	None
+cat__eResponse_10_Patient Access	0.0	None
+cat__eResponse_10_Safety-Crew/Staging	0.0008748245924659059	None
+cat__eResponse_10_Safety-Patient	0.0	None
+cat__eResponse_10_Staff Delay	0.0004115255561436548	None
+cat__eResponse_10_Traffic	0.0	None
+cat__eResponse_10_Triage/Multiple Patients	0.0	None
+cat__eResponse_10_Vehicle Crash Involving this Unit	0.00012630915773481632	None
+cat__eResponse_10_Vehicle Failure of this Unit	0.001160808116124512	None
+cat__eResponse_10_Weather	0.0013579835076307223	None
+cat__eDisposition_18_Initial Lights and Sirens, Downgraded to No Lights or Sirens	9.23087847792825e-05	None
+cat__eDisposition_18_Initial No Lights or Sirens, Upgraded to Lights and Sirens	0.0012698765160799041	None
+cat__eDisposition_18_Intersection Navigation-Against Normal Light Patterns	0.0008619515826404633	None
+cat__eDisposition_18_Intersection Navigation-With Automated Light Changing Technology	0.0	None
+cat__eDisposition_18_Intersection Navigation-With Normal Light Patterns	4.000063151066158e-05	None
+cat__eDisposition_18_Lights and No Sirens	0.0002991198336304013	None
+cat__eDisposition_18_Lights and Sirens	0.00363311007202638	None
+cat__eDisposition_18_No Lights or Sirens	0.00217981758050656	None
+cat__eDisposition_18_Not Applicable	0.0031041354001744015	None
+cat__eDisposition_18_Not Recorded	0.020234791985160427	None
+cat__eDisposition_18_Speed-Enhanced per Local Policy	0.0016218850041220811	None
+cat__eDisposition_18_Speed-Normal Traffic	0.0	None
+cat__eResponse_08_Caller (Uncooperative)	0.0	None
+cat__eResponse_08_Diversion/Failure (of previous unit)	0.0	None
+cat__eResponse_08_High Call Volume	0.0	None
+cat__eResponse_08_Language Barrier	0.0	None
+cat__eResponse_08_Location (Inability to Obtain)	0.0	None
+cat__eResponse_08_No EMS Vehicles (Units) Available	0.0	None
+cat__eResponse_08_None/No Delay	0.021661002862733314	None
+cat__eResponse_08_Not Applicable	0.0	None
+cat__eResponse_08_Not Recorded	0.011164996218283818	None
+cat__eResponse_08_Other	0.0011355798045649124	None
+cat__eResponse_08_Technical Failure (Computer, Phone etc.)	0.0009202230359681707	None
+cat__ePatient_14_2514001.0	0.0007529500970460123	None
+cat__ePatient_14_2514003.0	0.0	None
+cat__ePatient_14_2514005.0	0.001451118804919771	None
+cat__ePatient_14_2514007.0	0.0	None
+cat__ePatient_14_2514009.0	0.0	None
+cat__ePatient_14_2514011.0	0.023610354333438055	None
+cat__eResponse_12_Clean-up	0.0006599971191343368	None
+cat__eResponse_12_Decontamination	0.0014743014804050603	None
+cat__eResponse_12_Distance	0.0	None
+cat__eResponse_12_Documentation	0.0006208388449677749	None
+cat__eResponse_12_ED Overcrowding / Transfer of Care	0.0005090651367893884	None
+cat__eResponse_12_EMS Crew Accompanies Patient for Facility Procedure	0.0	None
+cat__eResponse_12_Equipment Failure	0.0	None
+cat__eResponse_12_Equipment/Supply Replenishment	0.00041626368443004047	None
+cat__eResponse_12_None/No Delay	0.010793105342104203	None
+cat__eResponse_12_Not Applicable	0.0016163564977480505	None
+cat__eResponse_12_Not Recorded	0.01551346538443954	None
+cat__eResponse_12_Other	0.00026771952800785925	None
+cat__eResponse_12_Rendezvous Transport Unavailable	0.0003566654193254415	None
+cat__eResponse_12_Route Obstruction (e.g., Train)	0.0	None
+cat__eResponse_12_Staff Delay	0.00042826706461718267	None
+cat__eResponse_12_Traffic	0.0	None
+cat__eResponse_12_Vehicle Crash of this Unit	0.0	None
+cat__eResponse_12_Vehicle Failure of this Unit	0.0	None
+cat__eResponse_12_Weather	0.0	None
+cat__eVitals_27_0	0.001415324050897615	None
+cat__eVitals_27_10	0.001776002123617948	None
+cat__eVitals_27_7	0.0014855247311129638	None
+cat__eVitals_27_8	0.0	None
+cat__eVitals_27_8801019	0.0	None
+cat__eVitals_27_8801023	0.0004198328400828455	None
+cat__eVitals_27_9	0.0	None
+cat__eVitals_27_Confused (>2 Years); Cries but is consolable, inappropriate interactions	0.0007943932918237362	None
+cat__eVitals_27_Inappropriate words (>2 Years); Inconsistently consolable, moaning	0.0	None
+cat__eVitals_27_Incomprehensible sounds (>2 Years); Inconsolable, agitated	0.0	None
+cat__eVitals_27_No verbal/vocal response (All Age Groups)	0.0	None
+cat__eVitals_27_Not Applicable	0.002868877001860781	None
+cat__eVitals_27_Not Recorded	0.025881312831193437	None
+cat__eVitals_27_Obeys commands (>2Years); Appropriate response to stimulation	0.0	None
+cat__eVitals_27_Oriented (>2 Years); Smiles, oriented to sounds, follows objects, interacts	0.0	None
+cat__eVitals_02_9923001	0.023415878314068994	None
+cat__eVitals_02_9923003	0.0	None
+cat__eVitals_02_Not Applicable	0.00020368083398580872	None
+cat__eVitals_02_Not Recorded	0.00018437440978869013	None
+cat__eVitals_04_12 Lead-Left Sided (Normal)	0.0	None
+cat__eVitals_04_12 Lead-Right Sided	0.0008280553070691976	None
+cat__eVitals_04_15 Lead	0.000921449833996002	None
+cat__eVitals_04_3 Lead	0.0	None
+cat__eVitals_04_4 Lead	0.0012974856840064497	None
+cat__eVitals_04_5 Lead	0.0	None
+cat__eVitals_04_Not Applicable	0.001341274374298207	None
+cat__eVitals_04_Not Recorded	0.02046591071420467	None
+cat__eVitals_04_Other (AED, Not Listed)	0.0016392716343158753	None
+cat__eVitals_08_Arterial Line	0.0016374245495491824	None
+cat__eVitals_08_Cuff-Automated	0.002442421881604373	None
+cat__eVitals_08_Cuff-Manual Auscultated	0.0	None
+cat__eVitals_08_Cuff-Manual Palpated Only	0.0	None
+cat__eVitals_08_Doppler	0.0008534153828561042	None
+cat__eVitals_08_Not Applicable	0.0007727623137285811	None
+cat__eVitals_08_Not Recorded	0.0247939121937224	None
+cat__eVitals_08_Venous Line	0.0008049461106929279	None
+cat__eVitals_26_Alert	0.000469584151912672	None
+cat__eVitals_26_Not Applicable	0.001698154234441862	None
+cat__eVitals_26_Not Recorded	0.013987893534677553	None
+cat__eVitals_26_Painful	0.0	None
+cat__eVitals_26_Unresponsive	0.008724871343221752	None
+cat__eVitals_26_Verbal	0.0004522655421712596	None
+cat__eVitals_29_8801019	0.0005119985182895359	None
+cat__eVitals_29_8801023	0.0	None
+cat__eVitals_29_Negative	0.0	None
+cat__eVitals_29_Non-Conclusive	0.00011056554594346402	None
+cat__eVitals_29_Not Applicable	0.006551950218466329	None
+cat__eVitals_29_Not Recorded	0.0241424221182307	None
+cat__eVitals_29_Positive	0.0	None
+cat__eVitals_30_Cincinnati	0.0003499394541564005	None
+cat__eVitals_30_F.A.S.T. Exam	0.0	None
+cat__eVitals_30_Los Angeles	0.002185147312097291	None
+cat__eVitals_30_Miami Emergency Neurologic Deficit (MEND)	0.0	None
+cat__eVitals_30_NIH	0.00030526507448236373	None
+cat__eVitals_30_Not Applicable	0.0046439136792566504	None
+cat__eVitals_30_Not Recorded	0.022759689154331353	None
+cat__eVitals_30_Other Stroke Scale Type	0.0009789012455116985	None
+cat__eVitals_31_8801019	0.0	None
+cat__eVitals_31_8801023	0.0	None
+cat__eVitals_31_Definite Contraindications to Thrombolytic Use	0.0	None
+cat__eVitals_31_No Contraindications to Thrombolytic Use	0.0	None
+cat__eVitals_31_Not Applicable	0.0021360933966017015	None
+cat__eVitals_31_Not Recorded	0.023661251691149632	None
+cat__eVitals_31_Possible Contraindications to Thrombolytic Use	5.204455489482562e-05	None
+cat__eVitals_19_8801019	0.0	None
+cat__eVitals_19_8801023	0.0003538003880423357	None
+cat__eVitals_19_Confused (>2 Years); Cries but is consolable, inappropriate interactions	0.0	None
+cat__eVitals_19_Inappropriate words (>2 Years); Inconsistently consolable, moaning	0.0	None
+cat__eVitals_19_Incomprehensible sounds (>2 Years); Inconsolable, agitated	0.0	None
+cat__eVitals_19_No verbal/vocal response (All Age Groups)	0.010797487394411442	None
+cat__eVitals_19_Not Applicable	0.0	None
+cat__eVitals_19_Not Recorded	0.016280718529811278	None
+cat__eVitals_20_8801019	0.0	None
+cat__eVitals_20_8801023	0.0025784120537741817	None
+cat__eVitals_20_Confused (>2 Years); Cries but is consolable, inappropriate interactions	0.0	None
+cat__eVitals_20_Inappropriate words (>2 Years); Inconsistently consolable, moaning	0.00024212552414315525	None
+cat__eVitals_20_Incomprehensible sounds (>2 Years); Inconsolable, agitated	0.0006494355814965491	None
+cat__eVitals_20_No verbal/vocal response (All Age Groups)	0.01223882896028572	None
+cat__eVitals_20_Not Applicable	0.0007699518952799522	None
+cat__eVitals_20_Not Recorded	0.016037532501802065	None
+cat__eVitals_20_Oriented (>2 Years); Smiles, oriented to sounds, follows objects, interacts	0.0	None
+cat__eVitals_21_8801019	0.0	None
+cat__eVitals_21_8801023	0.0003811965536242301	None
+cat__eVitals_21_Confused (>2 Years); Cries but is consolable, inappropriate interactions	0.0	None
+cat__eVitals_21_Inappropriate words (>2 Years); Inconsistently consolable, moaning	0.0	None
+cat__eVitals_21_Incomprehensible sounds (>2 Years); Inconsolable, agitated	0.0	None
+cat__eVitals_21_No verbal/vocal response (All Age Groups)	0.011239289566820743	None
+cat__eVitals_21_Not Applicable	0.000510616764439753	None
+cat__eVitals_21_Not Recorded	0.014861766674815202	None
+cat__eVitals_21_Obeys commands (>2Years); Appropriate response to stimulation	0.000609050325842242	None
+cat__eVitals_21_Oriented (>2 Years); Smiles, oriented to sounds, follows objects, interacts	0.0	None
+cat__eInjury_03_All penetrating injuries to  head, neck, torso, and extremities proximal to elbow or knee	0.0	None
+cat__eInjury_03_Amputation proximal to wrist or ankle	0.0	None
+cat__eInjury_03_Chest wall instability or deformity (e.g., flail chest)	0.0002550819025857187	None
+cat__eInjury_03_Crushed, degloved, mangled, or pulseless extremity	0.0	None
+cat__eInjury_03_Glasgow Coma Score <= 13	0.0015893365094350465	None
+cat__eInjury_03_Not Applicable	0.009624814730394116	None
+cat__eInjury_03_Not Recorded	0.020198357025479785	None
+cat__eInjury_03_Open or depressed skull fracture	0.0	None
+cat__eInjury_03_Paralysis	0.0	None
+cat__eInjury_03_Pelvic fractures	0.0006882921078044113	None
+cat__eInjury_03_Respiratory Rate  <10 or >29 breaths per minute (<20 in infants aged <1 year) or need for ventilatory support	0.0	None
+cat__eInjury_03_Systolic Blood Pressure <90 mmHg	0.0	None
+cat__eInjury_03_Two or more proximal long-bone fractures	0.0008149489519850839	None
+cat__eArrest_09_Compressions-Continuous	0.004983272656956306	None
+cat__eArrest_09_Compressions-External Band Type Device	0.0	None
+cat__eArrest_09_Compressions-External Plunger Type Device	0.0	None
+cat__eArrest_09_Compressions-External Thumper Type Device	0.0010944198688700446	None
+cat__eArrest_09_Compressions-Intermittent with Ventilation	0.0007699585552993771	None
+cat__eArrest_09_Compressions-Other Device	0.0	None
+cat__eArrest_09_Not Applicable	0.0018978841297530025	None
+cat__eArrest_09_Not Recorded	0.0024722006244926042	None
+cat__eArrest_09_Ventilation-Bag Valve Mask	0.0030836643004481523	None
+cat__eArrest_09_Ventilation-Impedance Threshold Device	0.0007842075551272032	None
+cat__eArrest_09_Ventilation-Mouth to Mouth	0.0013303953161527549	None
+cat__eArrest_09_Ventilation-Pocket Mask	0.0	None
+cat__eHistory_17_8801015	0.01946788459324278	None
+cat__eHistory_17_8801019	8.876743095176387e-05	None
+cat__eHistory_17_8801023	0.0007476356160780462	None
+cat__eHistory_17_Alcohol Containers/Paraphernalia at Scene	0.0010580938347108937	None
+cat__eHistory_17_Drug Paraphernalia at Scene	0.0	None
+cat__eHistory_17_Not Applicable	0.00046027084356636827	None
+cat__eHistory_17_Not Recorded	0.005448889099060716	None
+cat__eHistory_17_Patient Admits to Alcohol Use	0.0	None
+cat__eHistory_17_Patient Admits to Drug Use	0.0	None
+cat__eHistory_17_Positive Level known from Law Enforcement or Hospital Record	0.0	None
+cat__eHistory_17_Smell of Alcohol on Breath	0.0011212744375310724	None
+cat__eProcedures_06_9923001	0.0013242612103308016	None
+cat__eProcedures_06_9923003	0.025564062352580796	None
+cat__eProcedures_06_Not Applicable	0.0009396093977620534	None
+cat__eProcedures_06_Not Recorded	0.001593069485355425	None
+cat__eProcedures_08_9916001	0.0	None
+cat__eProcedures_08_9916003	0.022961714364834185	None
+cat__eProcedures_08_9916005	0.0	None
+cat__eProcedures_08_Not Applicable	0.00035018281509491267	None
+cat__eProcedures_08_Not Recorded	0.0026827032681080443	None
+cat__eProcedures_10_7701001   	4.473092288792557e-05	None
+cat__eProcedures_10_7701003   	0.0	None
+cat__eProcedures_10_9905001	0.0	None
+cat__eProcedures_10_9905001   	0.002002200349611627	None
+cat__eProcedures_10_9905003	0.0	None
+cat__eProcedures_10_9905003   	0.001803138835174689	None
+cat__eProcedures_10_9905005	0.0008440210111861912	None
+cat__eProcedures_10_9905005   	0.00029569192264733424	None
+cat__eProcedures_10_9905007	0.0	None
+cat__eProcedures_10_9905007   	0.005128551221475375	None
+cat__eProcedures_10_9905009	0.0	None
+cat__eProcedures_10_9905009   	0.000533956664738211	None
+cat__eProcedures_10_9905011	0.0006860422530057253	None
+cat__eProcedures_10_9905011   	0.0002239892220070594	None
+cat__eProcedures_10_9905013	0.0003876621941036884	None
+cat__eProcedures_10_9905013   	0.0041017421995204195	None
+cat__eProcedures_10_9905015	0.0	None
+cat__eProcedures_10_9905015   	0.0	None
+cat__eProcedures_10_9905019	0.0	None
+cat__eProcedures_10_9905019   	0.0007441400403982446	None
+cat__eProcedures_10_9905021	0.0	None
+cat__eProcedures_10_9905021   	0.001087417204741481	None
+cat__eProcedures_10_9905023	0.001103155239794651	None
+cat__eProcedures_10_9905023   	0.0	None
+cat__eProcedures_10_9905025	9.565329443539383e-05	None
+cat__eProcedures_10_9905025   	0.0	None
+cat__eProcedures_10_9905027   	1.0002969299538478e-05	None
+cat__eProcedures_10_9905029	0.0	None
+cat__eProcedures_10_9905029   	0.0005418144462323582	None
+cat__eProcedures_10_9905031	0.00018431302770194335	None
+cat__eProcedures_10_9905031   	0.0010005576258069748	None
+cat__eProcedures_10_9905033   	0.0005587141466909529	None
+cat__eProcedures_10_9905035   	0.0	None
+cat__eProcedures_10_9905037   	0.0008265003502696544	None
+cat__eProcedures_10_9905039	0.0004748772317542116	None
+cat__eProcedures_10_9905039   	0.0	None
+cat__eProcedures_10_9905041	0.001906835170170984	None
+cat__eProcedures_10_9905041   	0.0014333561565862407	None
+cat__eProcedures_10_Not Applicable	0.0	None
+cat__eProcedures_10_Not Recorded	0.00023534618808507268	None
+cat__eProcedures_10_Unknown   	0.002097316535252247	None
+cat__eProcedures_02_9923001	0.023806418989006595	None
+cat__eProcedures_02_9923003	0.0	None
+cat__eProcedures_02_Not Applicable	0.0003506292163102387	None
+cat__eProcedures_02_Not Recorded	0.0	None
+cat__eArrest_03_Attempted Defibrillation	0.0010569728351288443	None
+cat__eArrest_03_Attempted Ventilation	0.00819860286191676	None
+cat__eArrest_03_Initiated Chest Compressions	0.011720665225737115	None
+cat__eArrest_03_Not Applicable	0.0003386021015217011	None
+cat__eArrest_03_Not Attempted-Considered Futile	0.0001997808904934395	None
+cat__eArrest_03_Not Attempted-DNR Orders	0.0	None
+cat__eArrest_03_Not Attempted-Signs of Circulation	0.0	None
+cat__eArrest_03_Not Recorded	0.0005845062468023965	None
+cat__eResponse_11_Crowd	0.0	None
+cat__eResponse_11_Directions/Unable to Locate	0.0	None
+cat__eResponse_11_Distance	0.0	None
+cat__eResponse_11_Diversion	0.0008194343473995058	None
+cat__eResponse_11_HazMat	0.001177984984913616	None
+cat__eResponse_11_None/No Delay	0.014589250203008497	None
+cat__eResponse_11_Not Applicable	0.0	None
+cat__eResponse_11_Not Recorded	0.016653217226501038	None
+cat__eResponse_11_Other	0.00027180466430909433	None
+cat__eResponse_11_Patient Condition Change (e.g., Unit Stopped)	0.0012038010073700534	None
+cat__eResponse_11_Rendezvous Transport Unavailable	0.0	None
+cat__eResponse_11_Route Obstruction (e.g., Train)	0.0008904007734831243	None
+cat__eResponse_11_Safety	0.0002252621452580872	None
+cat__eResponse_11_Staff Delay	0.0	None
+cat__eResponse_11_Traffic	0.0	None
+cat__eResponse_11_Vehicle Crash Involving this Unit	0.0	None
+cat__eResponse_11_Vehicle Failure of this Unit	0.0016588555255536708	None
+cat__eResponse_11_Weather	0.001543388440541138	None
+cat__eArrest_04_Not Applicable	0.0	None
+cat__eArrest_04_Not Recorded	0.0	None
+cat__eArrest_04_Not Witnessed	0.018843460709556226	None
+cat__eArrest_04_Witnessed by Family Member	0.003220988911409206	None
+cat__eArrest_04_Witnessed by Healthcare Provider	0.0022308400977146814	None
+cat__eArrest_04_Witnessed by Lay Person	0.0010039768429210838	None
+cat__eResponse_24_Initial Lights and Sirens, Downgraded to No Lights or Sirens	0.0	None
+cat__eResponse_24_Initial No Lights or Sirens, Upgraded to Lights and Sirens	0.0013102049708568764	None
+cat__eResponse_24_Intersection Navigation-Against Normal Light  Patterns	0.0009252030758020169	None
+cat__eResponse_24_Intersection Navigation-With Automated Light Changing Technology	0.0003789022460471969	None
+cat__eResponse_24_Intersection Navigation-With Normal Light Patterns	0.0	None
+cat__eResponse_24_Lights and No Sirens	0.0	None
+cat__eResponse_24_Lights and Sirens	0.017219764757331113	None
+cat__eResponse_24_No Lights or Sirens	0.0012308264732801	None
+cat__eResponse_24_Not Applicable	0.0001198680578429201	None
+cat__eResponse_24_Not Recorded	0.008812749227314898	None
+cat__eResponse_24_Scheduled	0.0	None
+cat__eResponse_24_Speed-Enhanced per Local Policy	0.0014818616251710548	None
+cat__eResponse_24_Speed-Normal Traffic	0.0	None
+cat__eResponse_24_Unscheduled	0.0	None
+cat__eInjury_04_8801005	0.0	None
+cat__eInjury_04_Anticoagulants and Bleeding Disorders	0.00032979353698636693	None
+cat__eInjury_04_Auto v. Pedestrian/Bicyclist Thrown, Run Over, or > 20 MPH Impact	0.00027708677888327315	None
+cat__eInjury_04_Burn, with trauma mechanism	0.0	None
+cat__eInjury_04_Burn, without other trauma	0.0	None
+cat__eInjury_04_Crash Death in Same Passenger Compartment	0.0005177034924104262	None
+cat__eInjury_04_Crash Ejection (partial or complete) from automobile	0.0005690357071568286	None
+cat__eInjury_04_Crash Intrusion, including roof: > 12 in. occupant site; > 18 in. any site	0.0	None
+cat__eInjury_04_Crash Vehicle Telemetry Data (AACN) Consistent with High Risk of Injury	0.0017048203239071746	None
+cat__eInjury_04_EMS Provider Judgment	0.0013184451519230311	None
+cat__eInjury_04_Fall Adults: > 20 ft. (one story is equal to 10 ft.)	0.0	None
+cat__eInjury_04_Fall Children: > 10 ft. or 2-3 times the height of the child	0.0003792337178065708	None
+cat__eInjury_04_Motorcycle Crash > 20 MPH	0.0	None
+cat__eInjury_04_Not Applicable	0.009384955728888755	None
+cat__eInjury_04_Not Recorded	0.024375511189744126	None
+cat__eInjury_04_Pregnancy > 20 weeks	0.0	None
+cat__eInjury_04_SBP < 110 for age > 65	0.00046572426038848924	None
+cat__eHistory_01_Cultural, Custom, Religious	0.00034945812116760067	None
+cat__eHistory_01_Developmentally Impaired	2.838582905595466e-05	None
+cat__eHistory_01_Hearing Impaired	0.0	None
+cat__eHistory_01_Language	8.278937010652854e-05	None
+cat__eHistory_01_None Noted	0.021819157604622497	None
+cat__eHistory_01_Not Applicable	0.0014401365992047221	None
+cat__eHistory_01_Not Recorded	0.0018426278348464553	None
+cat__eHistory_01_Obesity	0.00014624661964823815	None
+cat__eHistory_01_Physical Barrier (Unable to Access Patient)	0.0	None
+cat__eHistory_01_Physically Impaired	0.000172381812764133	None
+cat__eHistory_01_Physically Restrained	0.0	None
+cat__eHistory_01_Psychologically Impaired	0.000482960598064075	None
+cat__eHistory_01_Sight Impaired	0.0010219888490330398	None
+cat__eHistory_01_Speech Impaired	0.0005665863160209117	None
+cat__eHistory_01_State of Emotional Distress	0.0010513976877108977	None
+cat__eHistory_01_Unattended or Unsupervised (including minors)	1.2761143816764076e-05	None
+cat__eHistory_01_Unconscious	0.003543890851512854	None
+cat__eHistory_01_Uncooperative	0.0015740026734991641	None
+cat__eResponse_09_Crowd	0.0002894513082030148	None
+cat__eResponse_09_Directions/Unable to Locate	0.00041926798560298906	None
+cat__eResponse_09_Distance	0.0	None
+cat__eResponse_09_Diversion (Different Incident)	0.0007638762729604842	None
+cat__eResponse_09_Flight Planning	0.0004967868939469433	None
+cat__eResponse_09_HazMat	0.0	None
+cat__eResponse_09_Mechanical Issue-Unit, Equipment, etc.	0.0004489920678028003	None
+cat__eResponse_09_None/No Delay	0.026216966069552816	None
+cat__eResponse_09_Not Applicable	0.0018707373629427426	None
+cat__eResponse_09_Not Recorded	0.002785405831851051	None
+cat__eResponse_09_Other	0.001271175125746149	None
+cat__eResponse_09_Rendezvous Transport Unavailable	0.0	None
+cat__eResponse_09_Route Obstruction (e.g., Train)	0.0	None
+cat__eResponse_09_Scene Safety (Not Secure for EMS)	0.0001333748703689075	None
+cat__eResponse_09_Staff Delay	0.0	None
+cat__eResponse_09_Traffic	0.0017241802749843327	None
+cat__eResponse_09_Vehicle Crash Involving this Unit	0.00019548899089216754	None
+cat__eResponse_09_Vehicle Failure of this Unit	0.0003979302908767579	None
+cat__eResponse_09_Weather	0.0	None
+cat__eArrest_17_9901001	0.0	None
+cat__eArrest_17_9901003	0.0020816428224565975	None
+cat__eArrest_17_9901005	0.0007597648907688992	None
+cat__eArrest_17_9901007	0.0	None
+cat__eArrest_17_9901009	0.0	None
+cat__eArrest_17_9901011	0.000237331259060225	None
+cat__eArrest_17_9901013	0.0011561770831589602	None
+cat__eArrest_17_9901015	0.0	None
+cat__eArrest_17_9901017	0.0	None
+cat__eArrest_17_9901019	0.0009123886106503498	None
+cat__eArrest_17_9901021	0.0	None
+cat__eArrest_17_9901023	0.0	None
+cat__eArrest_17_9901025	0.0	None
+cat__eArrest_17_9901027	0.0	None
+cat__eArrest_17_9901029	0.0	None
+cat__eArrest_17_9901031	0.00031399414656285707	None
+cat__eArrest_17_9901033	0.0001839744919966968	None
+cat__eArrest_17_9901035	0.0013527630743950247	None
+cat__eArrest_17_9901037	0.0	None
+cat__eArrest_17_9901039	0.00022626496771849247	None
+cat__eArrest_17_9901041	0.0010917803163741358	None
+cat__eArrest_17_9901043	0.0008384283022662142	None
+cat__eArrest_17_9901045	3.677143728375576e-05	None
+cat__eArrest_17_9901047	0.0012729019899899718	None
+cat__eArrest_17_9901049	0.0005490776948040565	None
+cat__eArrest_17_9901051	0.0	None
+cat__eArrest_17_9901053	0.00018823802218803642	None
+cat__eArrest_17_9901055	0.0	None
+cat__eArrest_17_9901057	0.0	None
+cat__eArrest_17_9901059	0.001631772255274111	None
+cat__eArrest_17_9901061	0.0	None
+cat__eArrest_17_9901063	0.0020744597726007896	None
+cat__eArrest_17_9901065	0.0006209605557812026	None
+cat__eArrest_17_9901067	0.00016355192476957825	None
+cat__eArrest_17_9901069	0.0	None
+cat__eArrest_17_9901071	0.0	None
+cat__eArrest_17_Not Applicable	0.0006205183678393844	None
+cat__eArrest_17_Not Recorded	0.011347204118789422	None
+num__ageinyear	0.006281858490154502	None
+num__EMSDispatchCenterTimeSec	0.0051086061209184574	None
+num__EMSChuteTimeMin	0.0028170831986529254	None
+num__EMSSystemResponseTimeMin	0.0005455943418575249	None
+num__EMSSceneResponseTimeMin	0.0	None
+num__EMSSceneTimeMin	0.11460748298300683	None
+num__EMSSceneToPatientTimeMin	0.0011371277577754135	None
+num__EMSTransportTimeMin	0.14613115717046132	None
+num__EMSTotalCallTimeMin	0.04253643454105038	None
+num__ePatient_15	0.0045674606678169916	None
+num__eVitals_06	0.004318092906354876	None
+num__eVitals_10	0.003705417733184113	None
+num__eVitals_12	0.0019324652690826394	None
+num__eVitals_14	0.0011668056851081854	None
+num__eVitals_16	0.0016409223495423841	None
+num__eVitals_18	0.002082142828832456	None
+num__eProcedures_05	0.0	None

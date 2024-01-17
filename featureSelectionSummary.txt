@@ -1,0 +1,88 @@
+Outline of Feature Selection Script and Initial Results
+
+Feature Selection Script
+- file 'run_feature_selection.py" store script to take in the data file made by Cristal, clean it, and then run the feature selection approaches on it
+- script has 6 boolean variables set at the top of the file, each of which dictates which parts of the script run
+    - clean_data: set true if you need to create a clean dataset, set false to load a cleaned dataset named clean_data.csv from the data folder
+    - use_subset_of_date: set true to run feature selections on a sample of the data. The number of rows included is determined by num_rows_to_select 
+        which is set farther down in the file. This is done to increase the speed of the script / for debugging
+    - save_Xy: set true to save the formatted X and y datasets used for the analysis, only do this if you want to explore thr raw data
+    - run_lasso: set true to run lasso feature selection methods
+    - run_univariate: set true to run the univariate feature selection methods
+    - run_pca: set true to run the pca feature selection methods
+
+
+I configured this file to run all feature selection parts on 1000 rows of data just to so you guys can get a feel for how it works - this is the version uploaded to github.
+
+Note: most data cleaning methods are defined in the Data_Clean.py file and then all called in the bottom most method in that file named cleanData
+
+In the Data_Clean.py file are two ways of defining outcome variables: one based on eArrest18 and one based on eOutcome1. Currently the script uses the eArrest18 variable -
+if you want to change that, alter the CleanData method to use the "createOutcomeColumn" method instead of the "createOutcomeColumn2" method currently in use.
+
+the eOutcome1 outcome variable has aroun 4.5k values
+the eArrest18 outcome variable has over 300k values, so it seems much better
+
+Part of the data cleaning includes storing summary info about the data at each stage of the cleaning. Files with the name like 'summary0Pre.csv' records summary
+stats for each column of the dataframe at each step in the cleaning: 
+summary0pre - summary of unmodified data file from Cristal
+summary1Outcome - same info after Outcome variasble is added
+summary2Drop - same info after unusable columns were dropped 
+summary3NAs - same info after missing value codes are replaced with NAs
+summary4Impute - same infor after NA values are imputed
+summaryX - same infor but just for columns that ended up in the X dataframe used by the models
+
+value_counts_pre_impute - value counts prior to data imputation
+value_counts_final - value counts for variables after imputation
+value_counts_encodedX - count of all values for the variables included in the X used by the models
+
+
+Feature Selection methods
+
+I tried a number of different variants on feature selectio:
+- univariate using the 'f_classif' scoring function, which is essentially the F statistic for classification problems. This just ranks features by F statistic
+- univariate using the 'mutual information' scoring function, which just ranks the features by how much mutual info they have with the outcome
+- PCA: this calculates n principal components and then performs logistic regression with them. It then saves the training score, test score, and the feature
+    that contributed most strongly to each of the n principal components. It does this as n varies from 1 to 200 (maybe we want a higher limit?). I then can
+    see which # of principal components performs the best, and which features appear as strong contributers to many components
+- Lasso regression: using the lasso function (which is lasso using OLS), run lasso as the penalty for including extra variables varies from .1 to 2. I then report 
+    which features are included vs excluded for each penalty value, along with the train and test scores for the model
+- Lasso logistic: exact same ideas as the lasso regression above, but it is implemented with the LogisticRegression sklearn method, not the Lasso method. Accordingly,
+    it uses logistic regression instead of OLS, which makes more sense in our context. I still apply the same penalty for including variables and vary the weights from
+    .1 to 2 and report the same results.
+
+Feature Selection Initial Results
+
+For each way of defining the outcome, I dropped all rows without a defined outcome variable and ran the feature selection methods on it. I then saved the results in files
+(which I am uploading to teams) and for the eArrest18 outcome, I also added the feature selection outcome data to an excel file that I will share on teams.
+
+Running on the full data took a while, so I ran these over night. Sadly, the lasso portion didnt save the results correctly nor converge so I will have to 
+rerun that tonight to get meaningful results. The PCA and univariate parts ran fine though.
+
+I then took the results from the text files for the outcome based on eArrest18 and parsed through the output in an excel file. I highlighted features that
+seem worth including - many are directly related to being dead and so dont seem like they have much predictive value. Should we remove them from the model?
+
+Here is the link to the excel: https://northeastern-my.sharepoint.com/:x:/r/personal/eichenlaub_j_northeastern_edu/_layouts/15/doc.aspx?sourcedoc=%7B14efb825-f3a5-46f3-b3fe-37cd42843ad8%7D&action=edit
+
+
+Issues Identified
+
+- The lasso scripts are not converging (I keep getting warnings) when estimating the coefficients. I think I need to adjust how many iterations the solver tries
+- The penalties used for the lasso scripts are probably not harsh enough - I want to try a wider range of penalties to see if that improves model tuning
+- I want to record the exact coefficients applied to each variable in each run of the lasso so I can exclude variables with very small coefficients
+- I had to exclude certain variables from the data, mainly medication and procedure variables that had hundreds out possible outcomes (it broke my computer when 
+    I tried to onehotencode them) - so we dont have the different medical intventions included as variables at all in this model
+
+
+QUESTIONS FOR GROUP MEMBERS
+- Does this approach make sense to you?
+- How should we proceed with the output?
+- How to handle medication/procedure variables with many many values? Should we only included a few relevant values or exclude entirely?
+- Recommendations for handling lack of convergence with lasso - I will be trying exploring a larger parameter space tonight
+- Impressions of the initial results in the excel file
+- how should I adjust what output we store from these models? Is there other data that you care about seeing recorded
+
+
+TO DO
+- fix saved data for lasso scripts
+- fix lack of convergence for lasso
+- rerun and tune better lasso
